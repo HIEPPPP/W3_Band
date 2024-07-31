@@ -1,0 +1,127 @@
+/* PC */
+@media (min-width: 64em) {
+    #mobile-menu {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    #mobile-menu {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+    #header {
+        overflow: hidden;
+    }
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        float: right;
+        padding: 0 21px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #header .mobile-menu-btn{
+        color: #fff;
+        font-size: 16px;
+        line-height: 46px;
+    }
+
+    #header .mobile-menu-btn:hover {  
+        background-color: #ccc;
+    }
+    
+    #header .mobile-menu-btn:hover  .mobile-menu-icon {
+        color: #000;
+    }
+
+    #header .mobile-menu-icon {
+        color: #fff;
+        font-size: 16px;
+        line-height: 46px;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {     
+        display: block;
+    }
+
+    #nav > li:first-child {     
+        display: inline-block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    .row-around {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    #content .member-name {
+        margin: 31px 0 15px;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    .tour-section .ticket-list {
+        margin: 10px;
+    }
+
+    .place-buy-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .col {
+        margin: 8px 0;
+    }
+
+    .row-between {
+        flex-direction: column;
+        margin: 3px;
+    }
+
+    .form-control {
+        margin: 8px 16px 0 0;
+        margin-top: 8px;
+        width: 100%;
+    }
+
+    .contact-info {
+        margin-left: 3px;
+    }
+
+    .row-between .input {
+        margin-right: 0px;
+    }
+
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+}
